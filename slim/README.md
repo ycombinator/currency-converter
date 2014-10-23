@@ -2,7 +2,7 @@
 
 ```
 $ cd /path/to/same/dir/as/this/README
-$ php artisan serve
+$ php -S localhost:8000 -t index.php
 ```
 
 ## To use:
