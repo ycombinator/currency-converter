@@ -1,8 +1,23 @@
-## To run:
+## Prerequisites:
+ 
+* [Docker](https://www.docker.com/)
+* [Fig](http://www.fig.sh/)
+
+    $ sudo pip install -U fig
+
+## To build Docker image
+
+1. Clone this repo.
 
 ```
-$ cd /path/to/same/dir/as/this/README
-$ php -S localhost:8000 -t index.php
+$ git clone https://github.com/ycombinator/currency-converter.git
+$ cd currency-converter/slim
+```
+
+2. Build the Docker image and run a container from it
+
+```
+$ fig up
 ```
 
 ## To use:
