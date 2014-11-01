@@ -5,7 +5,7 @@ of a simple PHP application.
 The application in this project is a simple currency converter HTTP API. For
 demonstration purposes this application is built using the 
 [Slim](http://www.slimframework.com/) PHP micro framework. It could just as
-easily use any other PHP framework or no framework at all.
+easily use any other PHP framework or no framework at all!
 
 ## To build and run locally
 
