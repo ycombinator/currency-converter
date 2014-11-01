@@ -22,6 +22,9 @@ $ fig up
 
 ## To use:
 
+**Note:** If you are using [boot2docker](http://boot2docker.io/), replace 
+`$DOCKER_HOST_IP` below with the IP reported by `boot2docker ip`.
+
 ### Get list of supported currencies
 ```
 $ curl http://$DOCKER_HOST_IP:8000/currencies
