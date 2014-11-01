@@ -11,12 +11,12 @@ easily use any other PHP framework or no framework at all.
 
 1. Clone this repo.
 
-    $ git clone https://github.com/ycombinator/currency-converter.git
-    $ cd currency-converter
+      $ git clone https://github.com/ycombinator/currency-converter.git
+      $ cd currency-converter
 
 2. Build the Docker image and run a container from it
 
-    $ fig up
+      $ fig up
 
 ## To use the application's HTTP API
 
