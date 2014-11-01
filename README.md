@@ -11,12 +11,16 @@ easily use any other PHP framework or no framework at all.
 
 1. Clone this repo.
 
-      $ git clone https://github.com/ycombinator/currency-converter.git
-      $ cd currency-converter
+    ```bash
+    $ git clone https://github.com/ycombinator/currency-converter.git
+    $ cd currency-converter
+    ```
 
 2. Build the Docker image and run a container from it
 
-      $ fig up
+    ```bash
+    $ fig up
+    ```
 
 ## To use the application's HTTP API
 
@@ -24,11 +28,11 @@ easily use any other PHP framework or no framework at all.
 `$DOCKER_HOST_IP` below with the IP reported by `boot2docker ip`.
 
 ### Get list of supported currencies
-```
+```bash
 $ curl http://$DOCKER_HOST_IP:8000/currencies
 ```
 
 ### Convert one currency into another
-```
+```bash
 $ curl -XPOST -d'{ "source": { "currency": "GBP", "amount": 2 }, "destination": { "currency": "GBP" } }' http://$DOCKER_HOST_IP:8000/converter
 ```
