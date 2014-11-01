@@ -1,0 +1,5 @@
+web:
+  build: .
+  ports:
+   # "outside:inside"
+   - "8000:80"
