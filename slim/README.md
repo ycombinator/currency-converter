@@ -24,10 +24,10 @@ $ fig up
 
 ### Get list of supported currencies
 ```
-$ curl http://localhost:8000/currencies
+$ curl http://$DOCKER_HOST_IP:8000/currencies
 ```
 
 ### Convert one currency into another
 ```
-$ curl -XPOST -d'{ "source": { "currency": "GBP", "amount": 2 }, "destination": { "currency": "GBP" } }' http://localhost:8000/converter
+$ curl -XPOST -d'{ "source": { "currency": "GBP", "amount": 2 }, "destination": { "currency": "GBP" } }' http://$DOCKER_HOST_IP:8000/converter
 ```
